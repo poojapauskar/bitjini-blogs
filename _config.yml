@@ -1,13 +1,5 @@
-# Site settings
-title: Bitjini Blogs
-#email: john@mads.ninja
-description: > # Bitjini Blogs.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://bitjini-blogs.azurewebsites.net" # the base hostname & protocol for your site
-twitter_username: poojapauskar
-github_username: poojapauskar
-#destination: /var/www/mads.ninja/public_html
-paginate: 10
 
-# Build settings
-markdown: kramdown
+permalink: /:year/:month/:day/:title/
+exclude: [README.md]
+baseurl: /blogs/
+url: "blogs.techcapades.com"
