@@ -1,4 +1,13 @@
+# Site settings
+title: Bitjini Blogs
+#email: john@mads.ninja
+description: > # Bitjini Blogs.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://blogs.techcapades.com" # the base hostname & protocol for your site
 
-permalink: /:year/:month/:day/:title/
-exclude: [README.md]
-baseurl: /blogs/
+github_username: poojapauskar
+#destination: /var/www/mads.ninja/public_html
+
+
+# Build settings
+markdown: kramdown
