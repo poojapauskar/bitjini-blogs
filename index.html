@@ -6,6 +6,11 @@ keywords: nodejs, mongodb, backbone.js, javascript, developer, blog, angular.js,
 summary: Writings about javascript, node.js, mongodb, backbone.js, python, .net and everything else in the world.
 ---
 
+<head>
+<!-- <link rel="shortcut icon" href="logo.ico" /> -->
+<link rel="stylesheet" href="public/css/bootstrap.css">
+<link rel="stylesheet" href="public/css/app.css">
+</head>
 
 <h2>About Bitjini</h2>
 <p>We are a bunch of technology enthusiast specialised in mobile application development, especially for iOS and Android platform, as well as web based applications. We simply enjoy programming and developing fresh ideas and shaping them with the touch of latest technology before presenting it to the World.</p>
@@ -22,7 +27,7 @@ summary: Writings about javascript, node.js, mongodb, backbone.js, python, .net 
   {% for post in site.posts %}
     <div class="post">
       <h1>
-        <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url | | remove_first: '/' }}">{{ post.title }}</a>
+        <a title="{{ post.title }}" href="{{ post.url | | remove_first: '/' }}">{{ post.title }}</a>
       </h1>
 
       {% if post.profile != %}
